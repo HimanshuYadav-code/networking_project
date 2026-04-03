@@ -1,0 +1,849 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000       195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 1: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 1.058086       ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 2: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 9.828384       195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 3: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 11.080871      ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 4: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 19.039330      195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 5: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 21.100521      ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 6: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 28.067755      195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 7: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 31.098286      ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 8: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 31.972734      195.120.150.2         195.120.150.195       ICMP     98     Echo (ping) request  id=0x2af0, seq=1/256, ttl=60 (reply in 12)
+
+Frame 9: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: Private_66:68:06 (00:50:79:66:68:06)
+Internet Protocol Version 4, Src: 195.120.150.2 (195.120.150.2), Dst: 195.120.150.195 (195.120.150.195)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 31.974442      Private_66:68:06      Broadcast             ARP      64     Who has 195.120.150.193? Tell 195.120.150.195
+
+Frame 10: Packet, 64 bytes on wire (512 bits), 64 bytes captured (512 bits)
+Ethernet II, Src: Private_66:68:06 (00:50:79:66:68:06), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 31.982846      ca:04:08:48:00:1c     Private_66:68:06      ARP      60     195.120.150.193 is at ca:04:08:48:00:1c
+
+Frame 11: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: Private_66:68:06 (00:50:79:66:68:06)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 31.983078      195.120.150.195       195.120.150.2         ICMP     98     Echo (ping) reply    id=0x2af0, seq=1/256, ttl=64 (request in 9)
+
+Frame 12: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Private_66:68:06 (00:50:79:66:68:06), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Internet Protocol Version 4, Src: 195.120.150.195 (195.120.150.195), Dst: 195.120.150.2 (195.120.150.2)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 33.053233      195.120.150.2         195.120.150.195       ICMP     98     Echo (ping) request  id=0x2bf0, seq=2/512, ttl=60 (reply in 14)
+
+Frame 13: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: Private_66:68:06 (00:50:79:66:68:06)
+Internet Protocol Version 4, Src: 195.120.150.2 (195.120.150.2), Dst: 195.120.150.195 (195.120.150.195)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 33.053682      195.120.150.195       195.120.150.2         ICMP     98     Echo (ping) reply    id=0x2bf0, seq=2/512, ttl=64 (request in 13)
+
+Frame 14: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Private_66:68:06 (00:50:79:66:68:06), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Internet Protocol Version 4, Src: 195.120.150.195 (195.120.150.195), Dst: 195.120.150.2 (195.120.150.2)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 34.106693      195.120.150.2         195.120.150.195       ICMP     98     Echo (ping) request  id=0x2df0, seq=3/768, ttl=60 (reply in 16)
+
+Frame 15: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: Private_66:68:06 (00:50:79:66:68:06)
+Internet Protocol Version 4, Src: 195.120.150.2 (195.120.150.2), Dst: 195.120.150.195 (195.120.150.195)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 34.106971      195.120.150.195       195.120.150.2         ICMP     98     Echo (ping) reply    id=0x2df0, seq=3/768, ttl=64 (request in 15)
+
+Frame 16: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Private_66:68:06 (00:50:79:66:68:06), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Internet Protocol Version 4, Src: 195.120.150.195 (195.120.150.195), Dst: 195.120.150.2 (195.120.150.2)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 35.161829      195.120.150.2         195.120.150.195       ICMP     98     Echo (ping) request  id=0x2ef0, seq=4/1024, ttl=60 (reply in 18)
+
+Frame 17: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: Private_66:68:06 (00:50:79:66:68:06)
+Internet Protocol Version 4, Src: 195.120.150.2 (195.120.150.2), Dst: 195.120.150.195 (195.120.150.195)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 35.162244      195.120.150.195       195.120.150.2         ICMP     98     Echo (ping) reply    id=0x2ef0, seq=4/1024, ttl=64 (request in 17)
+
+Frame 18: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Private_66:68:06 (00:50:79:66:68:06), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Internet Protocol Version 4, Src: 195.120.150.195 (195.120.150.195), Dst: 195.120.150.2 (195.120.150.2)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 36.218148      195.120.150.2         195.120.150.195       ICMP     98     Echo (ping) request  id=0x2ff0, seq=5/1280, ttl=60 (reply in 20)
+
+Frame 19: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: Private_66:68:06 (00:50:79:66:68:06)
+Internet Protocol Version 4, Src: 195.120.150.2 (195.120.150.2), Dst: 195.120.150.195 (195.120.150.195)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 36.218693      195.120.150.195       195.120.150.2         ICMP     98     Echo (ping) reply    id=0x2ff0, seq=5/1280, ttl=64 (request in 19)
+
+Frame 20: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Private_66:68:06 (00:50:79:66:68:06), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Internet Protocol Version 4, Src: 195.120.150.195 (195.120.150.195), Dst: 195.120.150.2 (195.120.150.2)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 37.480637      195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 21: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 41.107792      ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 22: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 47.116758      195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 23: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 47.754875      ca:04:08:48:00:1c     CDP/VTP/DTP/PAgP/UDLD CDP      366    Device ID: R4  Port ID: FastEthernet1/0  
+
+Frame 24: Packet, 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Cisco Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 51.127361      ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 25: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 56.185412      195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 26: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 61.142558      ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 27: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 65.396330      195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 28: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 71.147393      ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 29: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 74.710622      195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 30: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 81.166766      ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 31: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 83.896605      195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 32: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 84.165964      195.120.150.98        195.120.150.195       ICMP     98     Echo (ping) request  id=0x5ff0, seq=1/256, ttl=61 (reply in 34)
+
+Frame 33: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: Private_66:68:06 (00:50:79:66:68:06)
+Internet Protocol Version 4, Src: 195.120.150.98 (195.120.150.98), Dst: 195.120.150.195 (195.120.150.195)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 84.167220      195.120.150.195       195.120.150.98        ICMP     98     Echo (ping) reply    id=0x5ff0, seq=1/256, ttl=64 (request in 33)
+
+Frame 34: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Private_66:68:06 (00:50:79:66:68:06), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Internet Protocol Version 4, Src: 195.120.150.195 (195.120.150.195), Dst: 195.120.150.98 (195.120.150.98)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 85.210936      195.120.150.98        195.120.150.195       ICMP     98     Echo (ping) request  id=0x60f0, seq=2/512, ttl=61 (reply in 36)
+
+Frame 35: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: Private_66:68:06 (00:50:79:66:68:06)
+Internet Protocol Version 4, Src: 195.120.150.98 (195.120.150.98), Dst: 195.120.150.195 (195.120.150.195)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 85.211094      195.120.150.195       195.120.150.98        ICMP     98     Echo (ping) reply    id=0x60f0, seq=2/512, ttl=64 (request in 35)
+
+Frame 36: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Private_66:68:06 (00:50:79:66:68:06), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Internet Protocol Version 4, Src: 195.120.150.195 (195.120.150.195), Dst: 195.120.150.98 (195.120.150.98)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 86.256319      195.120.150.98        195.120.150.195       ICMP     98     Echo (ping) request  id=0x61f0, seq=3/768, ttl=61 (reply in 38)
+
+Frame 37: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: Private_66:68:06 (00:50:79:66:68:06)
+Internet Protocol Version 4, Src: 195.120.150.98 (195.120.150.98), Dst: 195.120.150.195 (195.120.150.195)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 86.257127      195.120.150.195       195.120.150.98        ICMP     98     Echo (ping) reply    id=0x61f0, seq=3/768, ttl=64 (request in 37)
+
+Frame 38: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Private_66:68:06 (00:50:79:66:68:06), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Internet Protocol Version 4, Src: 195.120.150.195 (195.120.150.195), Dst: 195.120.150.98 (195.120.150.98)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 87.290757      195.120.150.98        195.120.150.195       ICMP     98     Echo (ping) request  id=0x62f0, seq=4/1024, ttl=61 (reply in 40)
+
+Frame 39: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: Private_66:68:06 (00:50:79:66:68:06)
+Internet Protocol Version 4, Src: 195.120.150.98 (195.120.150.98), Dst: 195.120.150.195 (195.120.150.195)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 87.290821      195.120.150.195       195.120.150.98        ICMP     98     Echo (ping) reply    id=0x62f0, seq=4/1024, ttl=64 (request in 39)
+
+Frame 40: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Private_66:68:06 (00:50:79:66:68:06), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Internet Protocol Version 4, Src: 195.120.150.195 (195.120.150.195), Dst: 195.120.150.98 (195.120.150.98)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 88.338981      195.120.150.98        195.120.150.195       ICMP     98     Echo (ping) request  id=0x63f0, seq=5/1280, ttl=61 (reply in 42)
+
+Frame 41: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: Private_66:68:06 (00:50:79:66:68:06)
+Internet Protocol Version 4, Src: 195.120.150.98 (195.120.150.98), Dst: 195.120.150.195 (195.120.150.195)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 88.339087      195.120.150.195       195.120.150.98        ICMP     98     Echo (ping) reply    id=0x63f0, seq=5/1280, ttl=64 (request in 41)
+
+Frame 42: Packet, 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+Ethernet II, Src: Private_66:68:06 (00:50:79:66:68:06), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Internet Protocol Version 4, Src: 195.120.150.195 (195.120.150.195), Dst: 195.120.150.98 (195.120.150.98)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 91.166773      ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 43: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 93.839517      195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 44: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 101.171328     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 45: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 103.085979     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 46: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 106.179004     ca:04:08:48:00:1c     CDP/VTP/DTP/PAgP/UDLD CDP      366    Device ID: R4  Port ID: FastEthernet1/0  
+
+Frame 47: Packet, 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Cisco Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 111.198993     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 48: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 112.515350     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 49: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 121.209331     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 50: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 122.524875     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 51: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 131.205441     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 52: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 131.572444     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 53: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 140.706402     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 54: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 141.265109     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 55: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 150.661290     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 56: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 151.272403     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 57: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 157.990379     ca:04:08:48:00:1c     CDP/VTP/DTP/PAgP/UDLD CDP      366    Device ID: R4  Port ID: FastEthernet1/0  
+
+Frame 58: Packet, 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Cisco Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 159.812229     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 59: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 161.277905     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 60: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 169.321221     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 61: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 171.304609     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 62: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 178.569548     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 63: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 181.323408     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 64: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 187.779495     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 65: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 191.341229     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 66: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 197.111760     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 67: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 201.345728     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 68: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 206.377554     ca:04:08:48:00:1c     CDP/VTP/DTP/PAgP/UDLD CDP      366    Device ID: R4  Port ID: FastEthernet1/0  
+
+Frame 69: Packet, 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Cisco Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 206.856594     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 70: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 211.355465     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 71: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 216.293904     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 72: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 221.350006     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 73: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 225.547812     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 74: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 231.366248     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 75: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 235.432772     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 76: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 241.362742     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 77: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 244.518593     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 78: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 251.380294     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 79: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 253.690221     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 80: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 258.497820     ca:04:08:48:00:1c     CDP/VTP/DTP/PAgP/UDLD CDP      366    Device ID: R4  Port ID: FastEthernet1/0  
+
+Frame 81: Packet, 366 bytes on wire (2928 bits), 366 bytes captured (2928 bits)
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Cisco Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 261.373452     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 82: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 262.842824     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 83: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 271.380466     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 84: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 272.571195     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 85: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 281.403513     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 86: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 282.423874     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 87: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 291.426896     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 88: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 292.127017     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 89: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 301.437037     ca:04:08:48:00:1c     ca:04:08:48:00:1c     LOOP     60     Reply
+
+Frame 90: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: ca:04:08:48:00:1c (ca:04:08:48:00:1c)
+Configuration Test Protocol (loopback)
+Data (40 bytes)
+
+0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0020  00 00 00 00 00 00 00 00                           ........
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 301.923028     195.120.150.193       ospf-all.mcast.net    OSPF     90     Hello Packet
+
+Frame 91: Packet, 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: ca:04:08:48:00:1c (ca:04:08:48:00:1c), Dst: IPv4mcast_05 (01:00:5e:00:00:05)
+Internet Protocol Version 4, Src: 195.120.150.193 (195.120.150.193), Dst: ospf-all.mcast.net (224.0.0.5)
+Open Shortest Path First
