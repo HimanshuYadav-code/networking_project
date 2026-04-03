@@ -22,3 +22,7 @@ Implementation Goals
 • Inter-VLAN Routing: Using a "Router-on-a-Stick" or Layer 3 switch configuration to allow communication between segmented groups.
 
 Note: While RIP is excellent for its simplicity, this project highlights OSPF as the more robust solution for modern environments due to its faster convergence and better scalability.
+
+Author
+Himanshu Yadav
+BTech Cybersecurity
