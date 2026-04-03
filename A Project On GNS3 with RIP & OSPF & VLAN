@@ -1,0 +1,330 @@
+A Project On GNS3 with RIP & OSPF & VLAN
+
+PC CONFIGURATION
+On PC1:
+ip 195.120.150.2 /27 195.120.150.1
+
+On PC2:
+ip 195.120.150.226 /27 195.120.150.225
+
+On PC3:
+ip 195.120.150.98 /27 195.120.150.97
+
+On PC4:
+ip 195.120.150.99 /27 195.120.150.97
+
+On PC5:
+ip 195.120.150.162 /27 195.120.150.161
+
+On PC6:
+ip 195.120.150.163 /27 195.120.150.161
+
+On PC7:
+ip 195.120.150.194 /27 195.120.150.193
+
+On PC8:
+ip 195.120.150.195 /27 195.120.150.193
+
+To save configurations:
+save
+
+To check:
+show ip
+
+Command Explanations:
+	•	ip → Assigns IP address, subnet mask, and default gateway
+	•	save → Saves configuration permanently
+	•	show ip → Displays current IP configuration
+
+
+Router 1 (R1) Configuration
+
+enable
+configure terminal
+hostname R1
+!
+interface FastEthernet0/0
+ description --- Connection to Switch1 (LAN 1) ---
+ ip address 195.120.150.1 255.255.255.224
+ no shutdown
+exit
+!
+interface FastEthernet1/0
+ description --- WAN Link to R2 ---
+ ip address 195.120.150.33 255.255.255.224
+ no shutdown
+exit
+!
+end
+
+Command Explanations:
+	•	enable → Enters privileged mode
+	•	configure terminal → Enters global configuration mode
+	•	hostname R1 → Sets router name
+	•	interface FastEthernet → Selects interface
+	•	description → Adds interface description
+	•	ip address → Assigns IP and subnet mask
+	•	no shutdown → Activates interface
+	•	exit → Returns to previous mode
+	•	end → Exits to privileged mode
+
+
+Router 2 (R2) Configuration
+
+enable
+configure terminal
+hostname R2
+!
+interface FastEthernet1/1
+ description --- Connection to Switch2 (LAN 2) ---
+ ip address 195.120.150.97 255.255.255.224
+ no shutdown
+exit
+!
+interface FastEthernet0/0
+ description --- WAN Link to R1 ---
+ ip address 195.120.150.34 255.255.255.224
+ no shutdown
+exit
+!
+interface FastEthernet1/0
+ description --- WAN Link to R3 ---
+ ip address 195.120.150.65 255.255.255.224
+ no shutdown
+exit
+!
+end
+
+Command Explanations:
+
+(Same as R1 — applies to all routers)
+
+
+Router 3 (R3) Configuration
+
+enable
+configure terminal
+hostname R3
+!
+interface FastEthernet1/1
+ description --- Connection to Switch3 (LAN 3) ---
+ ip address 195.120.150.161 255.255.255.224
+ no shutdown
+exit
+!
+interface FastEthernet0/0
+ description --- WAN Link to R2 ---
+ ip address 195.120.150.66 255.255.255.224
+ no shutdown
+exit
+!
+interface FastEthernet1/0
+ description --- WAN Link to R4 ---
+ ip address 195.120.150.129 255.255.255.224
+ no shutdown
+exit
+!
+end
+
+
+Router 4 (R4) Configuration
+
+enable
+configure terminal
+hostname R4
+!
+interface FastEthernet1/0
+ description --- Connection to Switch4 (LAN 4) ---
+ ip address 195.120.150.193 255.255.255.224
+ no shutdown
+exit
+!
+interface FastEthernet0/0
+ description --- WAN Link to R3 ---
+ ip address 195.120.150.130 255.255.255.224
+ no shutdown
+exit
+!
+end
+
+
+￼
+➡️ VLAN Configuration on Router 1 (R1)
+
+configure terminal
+
+interface FastEthernet0/0
+ no ip address
+ no shutdown
+exit
+
+interface FastEthernet0/0.10
+ encapsulation dot1Q 10
+ ip address 195.120.150.1 255.255.255.224
+exit
+
+interface FastEthernet0/0.20
+ encapsulation dot1Q 20
+ ip address 195.120.150.225 255.255.255.224
+exit
+
+end
+copy running-config startup-config
+
+
+Command Explanations:
+	•	enable
+Enters privileged EXEC mode.
+	•	configure terminal
+Enters global configuration mode.
+	•	interface FastEthernet0/0
+Selects the physical interface connected to the switch.
+	•	no ip address
+Removes IP from physical interface because it will act as a trunk.
+	•	no shutdown
+Activates the interface.
+	•	interface FastEthernet0/0.10
+Creates a subinterface for VLAN 10.
+	•	encapsulation dot1Q 10
+Enables VLAN tagging for VLAN 10.
+	•	ip address 195.120.150.1 255.255.255.224
+Assigns gateway IP for VLAN 10 network.
+	•	interface FastEthernet0/0.20
+Creates a subinterface for VLAN 20.
+	•	encapsulation dot1Q 20
+Enables VLAN tagging for VLAN 20.
+	•	ip address 195.120.150.33 255.255.255.224
+Assigns gateway IP for VLAN 20 network.
+	•	end
+Exits configuration mode.
+	•	copy running-config startup-config
+Saves configuration permanently.
+
+
+RIP CONFIGURATION (ONLY R1 & R2)
+
+On R1:
+
+configure terminal
+router rip
+version 2
+network 195.120.150.0
+no auto-summary
+end
+copy running-config startup-config
+
+On R2:
+
+configure terminal
+router rip
+version 2
+network 195.120.150.0
+no auto-summary
+end
+copy running-config startup-config
+
+
+⚠️ IMPORTANT CHANGE
+
+❌ REMOVE RIP from R3 and R4 (if already configured)
+
+configure terminal
+no router rip
+end
+
+🔥 OSPF CONFIGURATION
+
+Router 2 (R2) — OSPF (Area 0)
+
+👉 Only interface towards R3 should be in OSPF
+
+configure terminal
+router ospf 1
+network 195.120.150.64 0.0.0.31 area 0
+end
+copy running-config startup-config
+
+
+Router 3 (R3) — OSPF (FULL ROUTER)
+
+👉 All interfaces in OSPF (as you said)
+
+configure terminal
+router ospf 1
+network 195.120.150.64 0.0.0.31 area 0
+network 195.120.150.128 0.0.0.31 area 1
+network 195.120.150.160 0.0.0.31 area 1
+end
+copy running-config startup-config
+
+
+Router 4 (R4) — OSPF (Area 1)
+
+👉 All interfaces in Area 1
+
+configure terminal
+router ospf 1
+network 195.120.150.128 0.0.0.31 area 1
+network 195.120.150.192 0.0.0.31 area 1
+end
+copy running-config startup-config
+
+Add Redistribution on R2
+
+configure terminal
+
+router ospf 1
+ redistribute rip subnets
+
+router rip
+ redistribute ospf 1 metric 1
+
+end
+
+
+🧠 Command Explanations (OSPF)
+	•	router ospf 1
+→ Starts OSPF process with ID 1
+	•	network <network> <wildcard> area <id>
+→ Advertises network into OSPF
+→ Assigns interface to specific area
+	•	0.0.0.31
+→ Wildcard mask for /27 subnet
+
+
+🔥 HOW DESIGN WORKS NOW
+	•	R1 ↔ R2 → RIP
+	•	R2 ↔ R3 → OSPF Area 0 (Backbone)
+	•	R3 ↔ R4 → OSPF Area 1
+
+👉 R3 becomes ABR (Area Border Router)
+
+
+VERIFICATION
+
+Checking OSPF neighbors:
+show ip ospf neighbor
+
+Check routing table:
+show ip route
+
+👉 We should expect to see:
+	•	R → RIP routes
+	•	O → OSPF routes
+
+TEST
+
+From PC1:
+
+ping 195.120.150.195
+
+👉 Should work ✅
+
+
+🔥 FINAL RESULT
+
+✔ RIP working (R1–R2)
+✔ OSPF working (R2–R3–R4)
+✔ Multi-protocol routing achieved
+
+———— End of File————   
