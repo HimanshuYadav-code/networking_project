@@ -147,6 +147,40 @@ exit
 !
 end
 
+VLAN configuration Using CLI on Switch1(if cli possible)
+
+enable
+conf t
+
+! Create VLANs
+vlan 10
+name VLAN10
+exit
+vlan 20
+name VLAN20
+exit
+
+! Configure access port for VLAN 10
+interface fa0/1
+switchport mode access
+switchport access vlan 10
+exit
+
+! Configure access port for VLAN 20
+interface fa0/2
+switchport mode access
+switchport access vlan 20
+exit
+
+! Configure trunk port (to router)
+interface fa0/0
+switchport trunk encapsulation dot1q
+switchport mode trunk
+switchport trunk allowed vlan 10,20
+exit
+
+end
+write memory
 
 ￼
 ➡️ VLAN Configuration on Router 1 (R1)
@@ -247,7 +281,7 @@ copy running-config startup-config
 
 Router 3 (R3) — OSPF (FULL ROUTER)
 
-👉 All interfaces in OSPF (as you said)
+👉 All interfaces in OSPF
 
 configure terminal
 router ospf 1
